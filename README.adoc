@@ -1,0 +1,18 @@
+Look into terraform and ansible.
+
+Configure EC2 instance with ssh access and use ansible to install something.
+
+== Requirements (Mac)
+
+- terraform
+- terraform-inventory
+- ansible
+- AWS credentials
+
+== Scripts
+
+=== Setup
+Run `./setup.sh` script.
+
+=== Cleanup
+Run `./cleanup.sh` script.

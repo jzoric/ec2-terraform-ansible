@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  name: Install software
+  user: ec2-user
+  gather_facts: False
+  tasks:
+  -  name: Install tree
+     yum:
+       name: tree
+       update_cache: yes
